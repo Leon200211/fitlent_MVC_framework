@@ -1,0 +1,24 @@
+Fault: 25-12-2022 20:34:18 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line73
+
+Fault: 25-12-2022 20:36:50 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line73
+
+Fault: 25-12-2022 20:37:52 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line73
+
+Fault: 25-12-2022 20:38:34 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line73
+
+Fault: 25-12-2022 20:39:28 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line73
+
+Fault: 25-12-2022 20:39:55 - Не найден application\controllers\AccountController.php
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line68
+

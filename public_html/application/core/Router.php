@@ -2,6 +2,9 @@
 
 namespace application\core;
 
+use application\exceptions\RouteException;
+
+
 // класс для роутинга по сайту
 class Router
 {
@@ -62,12 +65,12 @@ class Router
             if(class_exists($controller)){
                 echo 123;
             }else{
-                echo 'Не найден ' . $controller;
+                throw new RouteException('Не найден ' . $controller, 1);
             }
 
 
         }else{
-            echo "Маршрут не найден";
+            throw new RouteException("Не корректная директория сайта", 1);
         }
 
     }
