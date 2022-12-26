@@ -11,7 +11,7 @@ class MainController extends Controller
 {
 
     public function indexAction(){
-        echo 1;
+        $this->view->render('Главная страница');
     }
 
 
