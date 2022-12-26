@@ -81,7 +81,7 @@ class Router
 
 
         }else{
-            throw new RouteException("Не корректная директория сайта", 1);
+            throw new RouteException("Не корректная директория сайта", 404);
         }
 
     }

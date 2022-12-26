@@ -26,13 +26,24 @@ class RouteException extends \Exception
         $error .= "\r\n" . 'file ' . $this->getFile() . "\r\n In line" . $this->getLine() . "\r\n";
 
 
-        if($this->messages[$this->getCode()]){
+        if(isset($this->messages[$this->getCode()])){
             //$this->message = $this->messages[$this->getCode()];
         }
 
         // запись логов
         $this->writeLog($error);
-        exit(self::getMessage());
+
+        // вывод шаблонов ошибок
+        http_response_code($code);
+        if(file_exists('application/views/errors/' . $code . '.php')){
+            require 'application/views/errors/' . $code . '.php';
+            exit;
+        }else{
+            // вывод ошибок через класс Exception
+            exit(self::getMessage());
+        }
+
+
 
     }
 

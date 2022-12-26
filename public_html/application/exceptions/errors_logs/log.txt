@@ -82,3 +82,15 @@ Fault: 26-12-2022 9:27:21 - Не найден \application\controllers\AccountCo
 file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
  In line79
 
+Fault: 26-12-2022 20:37:17 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line84
+
+Fault: 26-12-2022 20:37:37 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line84
+
+Fault: 26-12-2022 20:51:52 - Не корректная директория сайта
+file C:\OpenServer\domains\fitlent_MVC_framework\public_html\application\core\Router.php
+ In line84
+
