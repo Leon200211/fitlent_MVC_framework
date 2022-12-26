@@ -27,7 +27,7 @@ class RouteException extends \Exception
 
 
         if($this->messages[$this->getCode()]){
-            $this->message = $this->messages[$this->getCode()];
+            //$this->message = $this->messages[$this->getCode()];
         }
 
         // запись логов

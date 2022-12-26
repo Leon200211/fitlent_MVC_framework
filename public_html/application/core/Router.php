@@ -59,13 +59,24 @@ class Router
         // если существует текущий маршрут
         if($this->match()){
 
-            $controller = 'application\controllers\\' . ucfirst($this->params['controller']) . 'Controller.php';
+            $controller_path = '\application\controllers\\' . ucfirst($this->params['controller']) . 'Controller';
+
 
             // проверка на существование контроллера
-            if(class_exists($controller)){
-                echo 123;
+            if(class_exists($controller_path)){
+
+                $action = $this->params['action'] . 'Action';
+                if(method_exists($controller_path, $action)){
+
+                    $controller = new $controller_path($this->params);
+                    $controller->$action();
+
+                }else{
+                    throw new RouteException('Не найден метод ' . $action, 1);
+                }
+
             }else{
-                throw new RouteException('Не найден ' . $controller, 1);
+                throw new RouteException('Не найден ' . $controller_path, 1);
             }
 
 
