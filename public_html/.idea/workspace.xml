@@ -10,6 +10,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2JPVa7NkT8JcMXdFnoDND8pMTE5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +44,9 @@
       <updated>1671979766349</updated>
       <workItem from="1671979767506" duration="7578000" />
       <workItem from="1671990167070" duration="47000" />
-      <workItem from="1672034850894" duration="10351000" />
+      <workItem from="1672034850894" duration="10890000" />
+      <workItem from="1672081805899" duration="34000" />
+      <workItem from="1672150449565" duration="3001000" />
     </task>
     <servers />
   </component>
